@@ -133,7 +133,7 @@ nav ul li a:hover {
 .attribution {
     text-align: center;
     margin-top: 20px;
-    background-color: palegreen;
+    background-color: pink;
 }
 
 /* Estilos para el menú hamburguesa */
@@ -338,7 +338,7 @@ nav ul li a:hover {
 
     .last-row .item {
     flex: 1;
-    margin: 10px;
+    margin: 5px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -347,13 +347,31 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
 }
+
+.last-row .item .image-container {
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+.last-row .item .text-container {
+    text-align: start;
+    margin-top: -10px;
+    padding: 10px;
+}
+
+
+.header-number{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-top: -10px;
+  
+
+}
+
+
+
+
     }
 
-    .last-row .item .image-container {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .last-row .item .text-container {
-        text-align: center;
-    }
+  
